@@ -9,5 +9,21 @@
 #import "RequestVC.h"
 
 @implementation RequestVC
-
+-(void)viewDidLoad
+{
+    [self.navigationController.navigationBar setHidden:YES];
+//    [self initView];
+    
+}
+- (void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+}
+- (void)loadView{
+    
+}
+- (void)initView{
+    _mImgPIC.layer.cornerRadius = 10;
+    _mImgProPIC.layer.cornerRadius = _mImgProPIC.frame.size.width/2;
+}
 @end

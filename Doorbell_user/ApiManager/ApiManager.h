@@ -7,7 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "AdminModel.h"
+#import "CompanyModel.h"
+#import "Header.h"
 
 @interface ApiManager : NSObject
-
++ (void)onPostApi:(NSString *)endPoint withDic:(NSDictionary *)body withCompletion:(void (^)(NSDictionary *dic))completion failure:(void (^)(NSError *error))failure;
 @end

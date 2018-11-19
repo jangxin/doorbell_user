@@ -9,5 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface RequestVC : UIViewController
-
+@property (weak, nonatomic) IBOutlet UILabel *mlblReuestTitle;
+@property (weak, nonatomic) IBOutlet UIImageView *mImgPIC;
+@property (weak, nonatomic) IBOutlet UILabel *mlblName;
+@property (weak, nonatomic) IBOutlet UIImageView *mImgProPIC;
+@property (weak, nonatomic) IBOutlet UILabel *mlblRequestContent;
 @end

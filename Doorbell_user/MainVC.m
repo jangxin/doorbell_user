@@ -6,15 +6,16 @@
 //  Copyright © 2017 Doorbell. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "MainVC.h"
 
-@interface ViewController ()
+@interface MainVC()
 
 @end
 
-@implementation ViewController
+@implementation MainVC
 
 - (void)viewDidLoad {
+    [self.navigationController.navigationBar setHidden:YES];
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
 }

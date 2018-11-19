@@ -9,5 +9,5 @@
 #import <Foundation/Foundation.h>
 
 @interface OneSignalUtils : NSObject
-
++ (void)sendNotification:(NSString *)oneSignalID withMessage:(NSString *)message;
 @end
